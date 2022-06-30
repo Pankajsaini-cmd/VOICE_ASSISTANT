@@ -218,15 +218,15 @@ if __name__ == "__main__":
                 query = takeCommand().lower()
                 try:
                     if 'india' in query:
-                        url = ('http://newsapi.org/v2/top-headlines?''country=in&''apiKey=040044a0148442458ad670d1aa3981ba')
+                        url = ('http://newsapi.org/v2/top-headlines?''country=in&''apiKey=HERE YOUR API KEY OF NEWSAPI')
                         speak("Top headlines from India")
                         func1(url)
                     elif 'china' in query:
-                        url = ('http://newsapi.org/v2/top-headlines?''country=cn&''apiKey=040044a0148442458ad670d1aa3981ba')
+                        url = ('http://newsapi.org/v2/top-headlines?''country=cn&''apiKey=HERE YOUR API KEY OF NEWSAPI')
                         speak("Top headlines from China")
                         func1(url)
                     elif 'united states' in query:
-                        url = ('http://newsapi.org/v2/top-headlines?''country=us&''apiKey=040044a0148442458ad670d1aa3981ba')
+                        url = ('http://newsapi.org/v2/top-headlines?''country=us&''apiKey=HERE YOUR API KEY OF NEWSAPI')
                         speak("Top headlines from United States")
                         func1(url)
                     elif 'mix' in query:
